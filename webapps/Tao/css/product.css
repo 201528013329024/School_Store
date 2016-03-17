@@ -1,0 +1,417 @@
+body {
+	background: url(../images/background/bg-body.jpg) repeat left top;
+	color: #515151;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	min-width: 1024px;
+	padding: 0;
+}
+a {
+	outline: none;
+}
+img {
+	border: 0;
+}
+p a {
+	color: #515151;
+}
+#body div div div div div div#sidebar ul li a {
+	color: #515151;
+	text-decoration: none;
+}
+#body div div div div div div#sidebar ul li a:hover {
+	text-decoration: underline;
+}
+p a:hover {
+	color: #252323;
+}
+#header {
+	background: url(../images/background/pinklight.png) repeat-x left top;
+	width: 100%;
+}
+
+#header div:first-child {
+	border: none;
+	height: 160px;
+	z-index: 2;
+}
+#header div:first-child div#logo {
+	background: none;
+	border: none;
+	display: block;
+	left: 400px;
+	padding: 0;
+	position: absolute;
+	top: 25px;
+	width: 172px;
+	z-index: 1000;
+}
+#header div:first-child div#logo a img {
+	display: block;
+}
+#header div:first-child ul {
+	height: 43px;
+	list-style: none;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	top: 90px;
+	width: 960px;
+}
+#header div:first-child ul li {
+	display: inline-block;
+}
+#header div:first-child ul li.home {
+	left: 50px;
+	position: absolute;
+	top: 0px;
+}
+
+
+#header div:first-child ul li.mybuy {
+	left: 160px;
+	position: absolute;
+	top: 0;
+}
+#header div:first-child ul li.mysell {
+	left: 270px;
+	position: absolute;
+	top: 0;
+}
+#header div:first-child ul li.announcement {
+	position: absolute;
+	top: 0;
+	right: 270px;
+}
+#header div:first-child ul li.question a {
+	position: absolute;
+	top: 0px;
+	right: 160px;
+}
+
+#header div:first-child ul li.about {
+	position: absolute;
+	top: 0;
+	right: 50px;
+}
+#header div:first-child ul li a {
+	display: block;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-weight: bold;
+	height: 43px;
+	letter-spacing: 1px;
+	line-height: 33px;
+	padding: 0 0 0 13px;	
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 0px -2px 0px #4f0428;
+}
+#header div:first-child ul li.current a {
+	background: url(../images/bg-menu-left.png) no-repeat left top;
+	color: #FFFFFF;
+}
+#header div:first-child ul li.current a span {
+	background: url(../images/bg-menu-right.png) no-repeat right top;
+	display: block;
+	height: 43px;
+	padding: 0 15px 0 5px;
+	text-align: center;
+}
+#header div {
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+	z-index: 1;
+}
+#header div div#figure {
+	background: url(../images/livemusic.png) no-repeat;
+	height: 410px;
+	position: relative;
+}
+#header div div#figure div#templatemo_search {
+	position: absolute;
+	width: 659px;
+	background: url(../images/templatemo_search.png) no-repeat;
+}
+
+#templatemo_search { 
+	left: 150px;
+	margin-bottom: 40px; 	
+	top:40px;
+	height: 36px; 
+	padding: 11px 10px 8px 10px; 
+}
+
+#templatemo_search form {
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_search .txt_field {
+	float: left;
+	display: block;
+	height: 32px;
+	line-height: 34px;
+	width: 570px;
+	color: #000;
+	font-size: 15px;
+	padding: 0px 12px;
+	font-variant: normal;
+	border: none;
+	background: none;
+}
+
+#templatemo_search .sub_btn {
+	float: right;
+	display: block;
+ 	height: 34px;
+	width: 55px;
+	cursor: pointer;
+	border: none;
+	background: none;	
+}
+#header div div#background {
+	background: url(../images/background/bg-blue.png) no-repeat center top;
+	height: 135px;
+	position: relative;
+}
+#header div div#background div{
+	position: absolute;
+	width: 659px;
+	background: url(../images/templatemo_search.png) no-repeat;
+}
+
+#body {
+	margin: -40px 0 0;
+}
+#body p {
+	margin: 0;
+}
+#body div {
+	background: url(../images/background/bg-content2.png) repeat-x left top;
+	border-bottom: 2px solid #86104a;
+	padding: 0;
+	width: 100%;
+}
+#body div div {
+	background: url(../images/background/bg-content.png) no-repeat center top;
+	border: 0;
+	padding: 104px 0 0;
+	width: 100%;
+}
+#body div div div {
+	background: url(../images/background/bg-content3.jpg) repeat left 108px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+#body div div div div {
+	margin: 0 auto;
+	padding: 0 0 40px;
+	width: 920px;
+}
+#body    div div div div div.tb-detail-hd{
+	height: 44px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding: 0;
+	position: relative;
+}
+#body div div div div div.tb-detail-hd h3{
+	display: inline-block;
+	max-width: 640px;
+	overflow: hidden;
+	line-height: 25px;
+	text-align: left;
+	text-indent: 15px;
+	white-space: nowrap;
+	font-size: 20px;
+	color: red;
+	margin-right: 8px;
+	margin-top: 0px;
+}
+#body div div div div div.tb-summary{
+	height: 450px;
+}
+#body div div div div div div.big-pic{
+	background-image: url(../images/big-pic.png);	
+	float: left;
+	height: 300px;
+	width: 300px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: top;
+	padding: 20px;
+}
+#body div div div div div div div.pic{
+	margin-top: -16px;
+	margin-bottom: 0px;
+	margin-left: 9px;
+	height: 280px;
+	width: 280px;
+	padding: 0px;
+	background: none;
+}
+#body div div div div div div.price{
+	float: left;
+	height: 36px;
+	width: 280px;
+	margin-left: 10px;
+	color: #999;
+	font-size: 18px;
+	text-decoration: line-through;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#body div div div div div div.promote{
+	padding: 0px;
+	float: left;
+	height: 46px;
+	width: 280px;
+	margin-left: 10px;
+	color: #F00;
+	font-size: 36px;
+
+}
+#body div div div div div div.add{
+	padding: 0px;
+	float: left;
+	width: 350px;
+	height: aauto;
+	margin-left: 10px;
+	padding-top: 5px;
+	font-size: 20px;
+}
+
+#body div div div div div div.type{
+	height: 40px;
+	width: 90px;
+	margin-left: 20px;
+	font-size: 20px;
+	color: #820048;
+	padding-right: -6px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 5px;
+}
+#body div div div div .tb-summary div {
+	float: left;
+	width: 500px;
+	padding: 0px;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+#footer {
+	height: 150px;
+}
+
+#footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 30px 0 0;
+	width: 940px;
+}
+
+#footer div div:first-child p {
+	color: #f0b7d2;
+	line-height: 30px;
+	margin: 0;
+	text-align: justify;
+}
+#footer div div:first-child {
+	background: url(../images/footer-separator.png) no-repeat right top;
+	float: left;
+	padding: 0 90px 0 20px;
+	width: 660px;
+}
+#footer div div p a {
+	color: #f0b7d2;
+}
+#footer div div h3 {
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0 0 30px;
+	padding: 0px 0 0;
+	text-shadow: 0 1px #820048;
+	text-transform: uppercase;
+}
+#footer div div {
+	float: right;
+	min-height: 150px;
+	padding: 0;
+	width: 160px;
+}
+#footer div div ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#footer div div ul li {
+	display: block;
+	margin: 20px 0 0;
+}
+#footer div div ul li a {
+	color: #f0b7d2;
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	text-decoration: none;
+	text-indent: 40px;
+	text-transform: lowercase;
+}
+#footer div div ul li a:hover, #footer div div p a:hover {
+	color: #FFFFFF;
+}
+#footer div div ul li:first-child {
+	margin: 0;
+}
+#footer div div ul li a#ahnu {
+	background: url(../images/ahnu.png) no-repeat 3px -104px;
+	height: 20px;
+	line-height: 20px;
+}
+#footer div div ul li a#ahnu:hover {
+	background: url(../images/ahnu.png) no-repeat 3px -126px;
+}
+#footer div div ul li a#tms {
+	background: url(../images/tms.png) no-repeat 0 -54px;
+	
+}
+#footer div div ul li a#tms:hover {
+	background: url(../images/tms.png) no-repeat 0 -74px;
+}
+#footer div div ul li a#library {
+	background: url(../images/library.png) no-repeat 8px 0;
+}
+#footer div div ul li a#library:hover {
+	background: url(../images/library.png) no-repeat 8px -22px;
+}
+#footer p.footnote {
+	background: #991456;
+	border-radius: 5px;
+	color: #c14381;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	margin: 30px auto 0;
+	text-align: center;
+	width: 360px;
+}

@@ -1,0 +1,150 @@
+五月 28, 2014 7:49:29 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\\bin;C:\oracle\ora92\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\Java\jdk1.7.0_11\bin;C:\Program Files\Java\jdk1.7.0_11\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Common Files\Ulead Systems\MPEG;.
+五月 28, 2014 7:49:30 下午 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+五月 28, 2014 7:49:30 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2020 ms
+五月 28, 2014 7:49:30 下午 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+五月 28, 2014 7:49:30 下午 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+五月 28, 2014 7:49:30 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+五月 28, 2014 7:49:31 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+五月 28, 2014 7:49:31 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+五月 28, 2014 7:49:31 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+五月 28, 2014 7:49:31 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory Liuyan
+五月 28, 2014 7:49:31 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+五月 28, 2014 7:49:31 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory Tao
+五月 28, 2014 7:49:32 下午 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+五月 28, 2014 7:49:32 下午 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+五月 28, 2014 7:49:32 下午 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/60  config=null
+五月 28, 2014 7:49:32 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1714 ms
+五月 28, 2014 7:49:43 下午 org.apache.catalina.startup.Catalina stopServer
+SEVERE: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:69)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:422)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:338)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:416)
+
+五月 28, 2014 7:49:46 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\\bin;C:\oracle\ora92\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\Java\jdk1.7.0_11\bin;C:\Program Files\Java\jdk1.7.0_11\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Common Files\Ulead Systems\MPEG;.
+五月 28, 2014 7:49:46 下午 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+五月 28, 2014 7:49:46 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 370 ms
+五月 28, 2014 7:49:46 下午 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+五月 28, 2014 7:49:46 下午 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+五月 28, 2014 7:49:46 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+五月 28, 2014 7:49:46 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+五月 28, 2014 7:49:46 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+五月 28, 2014 7:49:46 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+五月 28, 2014 7:49:46 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory Liuyan
+五月 28, 2014 7:49:46 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+五月 28, 2014 7:49:46 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory Tao
+五月 28, 2014 7:49:46 下午 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+五月 28, 2014 7:49:46 下午 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+五月 28, 2014 7:49:46 下午 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/19  config=null
+五月 28, 2014 7:49:46 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 592 ms
+五月 28, 2014 9:37:26 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\\bin;C:\oracle\ora92\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\Java\jdk1.7.0_11\bin;C:\Program Files\Java\jdk1.7.0_11\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Common Files\Ulead Systems\MPEG;.
+五月 28, 2014 9:37:26 下午 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+五月 28, 2014 9:37:26 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 493 ms
+五月 28, 2014 9:37:26 下午 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+五月 28, 2014 9:37:26 下午 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+五月 28, 2014 9:37:26 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+五月 28, 2014 9:37:26 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+五月 28, 2014 9:37:26 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+五月 28, 2014 9:37:26 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+五月 28, 2014 9:37:27 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory Liuyan
+五月 28, 2014 9:37:27 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+五月 28, 2014 9:37:27 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory Tao
+五月 28, 2014 9:37:27 下午 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+五月 28, 2014 9:37:27 下午 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+五月 28, 2014 9:37:27 下午 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/36  config=null
+五月 28, 2014 9:37:27 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 622 ms
+五月 28, 2014 11:14:23 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\\bin;C:\oracle\ora92\bin;C:\Program Files\Oracle\jre\1.3.1\bin;C:\Program Files\Oracle\jre\1.1.8\bin;C:\Program Files\Java\jdk1.7.0_11\bin;C:\Program Files\Java\jdk1.7.0_11\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Common Files\Ulead Systems\MPEG;.
+五月 28, 2014 11:14:24 下午 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+五月 28, 2014 11:14:24 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 355 ms
+五月 28, 2014 11:14:24 下午 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+五月 28, 2014 11:14:24 下午 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+五月 28, 2014 11:14:24 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+五月 28, 2014 11:14:24 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+五月 28, 2014 11:14:24 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+五月 28, 2014 11:14:24 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+五月 28, 2014 11:14:24 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory Liuyan
+五月 28, 2014 11:14:24 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+五月 28, 2014 11:14:24 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory Tao
+五月 28, 2014 11:14:24 下午 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+五月 28, 2014 11:14:24 下午 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+五月 28, 2014 11:14:24 下午 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/19  config=null
+五月 28, 2014 11:14:24 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 564 ms
